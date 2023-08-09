@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "module": "es6",
+        "moduleResolution": "node",
+        "outDir": "./dist",
+        "target": "es6",
+        "removeComments": true /* Do not emit comments to output. */,
+        "importHelpers": true /* Import emit helpers from 'tslib'. */
+    },
+    "include": [
+        "./typings/*.ts",
+        "./src/*.ts"
+    ]
+}
